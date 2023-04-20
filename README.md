@@ -1,4 +1,4 @@
-<p>Quora  Clone</p>
+<h1>Quora  Clone</h1>
 <p>It's A Platform to ask questions and connect with People who contribute unique insights and quality answers. Users can collaborate by editing questions and commenting on answers that have been submitted by other users.</p>
 <img width="1500" src="https://roshan-portfolio1.netlify.app/qua.png" alt="">
 <h1>WELCOME ✨</h1>
