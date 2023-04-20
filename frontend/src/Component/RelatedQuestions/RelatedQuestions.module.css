@@ -1,0 +1,19 @@
+.RelatedQuestions {
+    width: 30%;
+    padding: 20px;
+    height: fit-content;
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+
+.RelatedQuestions > p {
+    margin: 10px;
+    color: rgb(14, 116, 156);
+}
+
+.RelatedQuestions > p:first-child {
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}

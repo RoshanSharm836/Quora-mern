@@ -1,0 +1,38 @@
+.Popup {
+  box-shadow: 0px 0px 10px black;
+  position: absolute;
+  width: 50%;
+  /* top: 10%; */
+  left: 20%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 100;
+}
+
+.Popup > i {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.linksDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.linksDiv > div {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.linksDiv > div:hover {
+  background-color: rgb(218, 216, 216);
+}
+
+.linksDiv > div:focus {
+  border-bottom: 2px solid rgb(46, 105, 255);
+}

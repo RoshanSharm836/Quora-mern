@@ -1,0 +1,27 @@
+.comment-el {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  padding: 10px 0;
+}
+
+.comment-el > img {
+  border-radius: 50%;
+}
+
+.formcomment > input:first-child {
+  border: 1px solid;
+  padding: 5px;
+  width: 50%;
+  border: 1px solid;
+  margin: 0 10px 0 0px;
+}
+.formcomment > input:last-child {
+  border: 1px solid;
+  padding: 5px;
+  border: 1px solid;
+}
+.commenets > span {
+  cursor: pointer;
+}

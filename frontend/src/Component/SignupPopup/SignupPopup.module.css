@@ -1,0 +1,55 @@
+.SignupPopup {
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px 20px 0px 20px;
+}
+
+.SignupPopup i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.SignupPopup h3 {
+    margin: 30px 0px;
+}
+
+.SignupPopup input {
+    display: block;
+    width: 95%;
+    margin: 5px 0px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    color: grey;
+    font-size: 14px;
+}
+
+.SignupPopup > div {
+    margin: 15px 0px;
+}
+
+.SignupPopup > div:last-child {
+    border-top: 1px solid lightgrey;
+    text-align: right;
+    padding: 10px 0px;
+    margin-top: 30px;
+}
+
+.SignupPopup > div:last-child > button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(41, 83, 211);
+    color: white;
+}
+
+.SignupPopup > div:last-child > button:hover {
+    cursor: pointer;
+    background-color: rgb(89, 117, 202);
+}

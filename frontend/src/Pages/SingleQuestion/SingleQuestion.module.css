@@ -1,0 +1,109 @@
+.SingleQuestion {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.questionDiv {
+    width: 60%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+
+.innerDiv {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.innerDiv img {
+    width: 50px;
+    border: none; 
+    border-radius: 50%;
+}
+
+.innerDiv button {
+    margin: 10px 0px;
+    padding: 10px 15px;
+    border: 2px solid rgb(27, 167, 222);
+    border-radius: 18px;
+    color: rgb(27, 167, 222);
+    background-color: white;
+}
+
+.innerDiv button:hover {
+    cursor: pointer;
+    background-color: rgb(210, 230, 237);
+}
+
+.innerDiv > p:nth-child(2) {
+    font-size: 18px;
+}
+
+.innerDiv > p:nth-child(3) {
+    color: grey;
+}
+
+.buttonsDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftButtons button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: grey;
+}
+
+.leftButtons > button:first-child {
+    border: 1px solid grey;
+}
+
+.leftButtons > button:hover {
+    background-color: rgb(232, 230, 230);
+    cursor: pointer;
+}
+
+.rightButtons button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: grey;
+}
+
+.rightButtons > button:hover {
+    background-color: rgb(232, 230, 230);
+    cursor: pointer;
+}
+
+.answers {
+    margin-top: 20px;
+    border-top: 2px solid grey;
+}
+
+.answers i {
+    width: 20px;
+    padding: 10px;
+}
+
+.answers ul > li {
+    margin: 10px;
+}
+
+.answers > div:last-child > p {
+    font-weight: bold;
+    margin: 10px 0px;
+    text-decoration: underline;
+}

@@ -1,0 +1,57 @@
+.Question {
+    padding: 10px;
+    border: 1px solid lightgray;
+    position: relative;
+}
+.Question > h3 {
+    margin: 10px 0px;
+}
+
+span {
+    margin-right: 10px;
+    color: grey;
+}
+
+.buttonsDiv > button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.buttonsDiv > button:first-child {
+    border: 1px solid grey;
+}
+
+.buttonsDiv > button:hover {
+    background-color: rgb(232, 230, 230);
+}
+
+.Question > i:nth-child(1) {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.Question > i:nth-child(2) {
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}
+
+.Question > i:nth-child(3) {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+} 
+
+.Question a {
+    background-color: white;
+    color: black;
+}
+
+.Question a:hover {
+    text-decoration: underline;
+}

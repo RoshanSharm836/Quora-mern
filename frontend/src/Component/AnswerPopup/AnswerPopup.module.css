@@ -1,0 +1,58 @@
+.AnswerPopup {
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.credentialDiv {
+    margin-top: 10px;
+}
+
+.cancelBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.AnswerPopup {
+    border-top: 1px solid grey;
+}
+
+.AnswerPopup textarea {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: large;
+}
+
+.bottomDiv {
+    padding: 10px;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomDiv span {
+    margin: 0px 5px;
+}
+
+.bottomDiv button {
+    background-color: rgb(46,105,255);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.bottomDiv button:hover {
+    cursor: pointer;
+    background-color: rgb(18, 78, 231);
+}

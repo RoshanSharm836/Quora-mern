@@ -1,0 +1,141 @@
+.Login {
+  background-image: url(https://qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.home_page_bg_desktop.png-26-4770753d59b970e1.png);
+  min-height: 100vh;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.LoginBox {
+  background-color: white;
+  width: 50%;
+  margin: auto;
+  box-shadow: 0px 0px 10px black;
+  padding-top: 30px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.heading {
+  text-align: center;
+  line-height: 30px;
+}
+
+.heading > div {
+  color: grey;
+  font-weight: bold;
+}
+
+.heading > img {
+  width: 25%;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.centerDiv {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 20px;
+}
+
+.centerDiv > div {
+  padding: 20px;
+}
+
+.centerDiv > div:first-child {
+  border-right: 1px solid lightgray;
+}
+
+.centerDiv > div:first-child > p {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.centerDiv > div:first-child > div:nth-child(2),
+.centerDiv > div:first-child > div:nth-child(3) {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin: 10px 0px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.centerDiv img {
+  width: 20px;
+}
+
+.centerDiv > div:first-child > div:last-child {
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.centerDiv > div:first-child > div:hover {
+  cursor: pointer;
+  background-color: rgb(217, 214, 214);
+}
+
+.centerDiv > div:last-child h4 {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.centerDiv > div:last-child label {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.centerDiv > div:last-child input {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0px;
+  border: 1px solid lightgray;
+}
+
+.centerDiv > div:last-child > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.centerDiv > div:last-child > div:last-child > button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(41, 83, 211);
+  color: white;
+}
+
+.centerDiv > div:last-child > div:last-child > button:hover {
+  cursor: pointer;
+  background-color: rgb(89, 117, 202);
+}
+
+.centerDiv > div:last-child > div:last-child > span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.langDiv {
+  text-align: center;
+  padding: 5px;
+}
+
+.footerDiv {
+  background-color: rgb(241, 242, 242);
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 15px;
+  color: grey;
+}

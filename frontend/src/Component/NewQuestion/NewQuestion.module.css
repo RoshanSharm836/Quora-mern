@@ -1,0 +1,72 @@
+.NewQuestion {
+    padding: 10px 0px;
+    border-top: 1px solid grey;
+}
+
+.tipsDiv {
+    background-color: rgb(235,240,255);
+    color: rgb(46,105,255);
+    padding: 20px;
+}
+
+.tipsDiv > ul > li {
+    margin: 5px 0px;
+    margin-left: 15px;
+}
+
+.accessDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.accessDiv select {
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.accessDiv > i {
+    color: grey;
+    font-size: 10px;
+}
+
+.NewQuestionDiv input {
+    width: 97%;
+    font-size: large;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+
+.bottomDiv {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.bottomDiv button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.bottomDiv button:nth-child(1) {
+    background-color: white;
+    color: grey;
+}
+
+.bottomDiv button:nth-child(1):hover {
+    background-color: rgb(230, 227, 227);
+}
+
+.bottomDiv button:nth-child(2) {
+    background-color: rgb(46,105,255);
+    color: white;
+}
+
+.bottomDiv button:nth-child(2):hover {
+    background-color: rgb(21, 83, 239);
+}

@@ -1,0 +1,106 @@
+a {
+  text-decoration: none;
+}
+.App {
+  width: 60%;
+  margin: auto;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 180px 600px;
+}
+@media screen and (max-device-width: 1024px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+  .css-0 {
+    display: flex;
+    justify-content: end;
+  }
+  .sidebar,
+  .footer,
+  .ad {
+    position: relative !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: end;
+  }
+  .sidebar > div {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+  .footer {
+    margin: 50px 0;
+  }
+  .ad {
+    display: none;
+  }
+}
+.sidebar > div:first-child {
+  display: flex;
+  gap: 10px;
+  color: rgb(121, 123, 122);
+  cursor: pointer;
+  padding: 5px;
+  flex-direction: column;
+}
+/* .sidebar > div:first-child:hover {
+  background-color: aliceblue;
+} */
+.main {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.ad {
+  position: fixed;
+  left: 74rem;
+  width: 11%;
+  height: 100vh;
+  margin-left: 2px;
+}
+.footer {
+  flex-direction: row !important;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 5px;
+  font-size: 12px;
+  margin-top: 30px;
+}
+.footer a:hover {
+  border-bottom: 1px solid;
+}
+.Sidebar_Button:hover {
+  background-color: aliceblue;
+}
+.Sidebar_Button a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 5px;
+  font-size: 12px;
+}
+.Sidebar_Button img {
+  border-radius: 5px;
+}
+.Sidebar_Button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.black {
+  color: black;
+  font-size: 16px;
+}
+
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+}

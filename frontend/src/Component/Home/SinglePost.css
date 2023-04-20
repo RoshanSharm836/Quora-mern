@@ -1,0 +1,95 @@
+.black {
+  color: black;
+  font-weight: bolder;
+}
+/* .SinglePost */
+.SinglePost {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  z-index: 10 !important;
+}
+.SinglePost-head {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.SinglePost-head > img {
+  border-radius: 50%;
+  object-fit: contain;
+}
+.follow {
+  color: #00bcd4;
+  margin-left: 15px;
+}
+
+/* .SinglePost-tail */
+
+.SinglePost-tail {
+  display: flex;
+  align-items: center;
+}
+.SinglePost-tail button i {
+  padding: 10px;
+  font-size: 18px;
+}
+.SinglePost-tail button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.SinglePost-tail > span {
+  margin: 0 10px;
+}
+/* .SinglePost-body */
+.SinglePost-body > div,
+.SinglePost-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.SinglePost-body > div span {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  transition: display 5s ease-in-out;
+}
+.SinglePost-body > div span:hover {
+  -webkit-line-clamp: 6;
+}
+.title {
+  margin-top: 50px;
+}
+.SinglePost-body img {
+  object-fit: contain;
+  max-height: 500px;
+}
+
+/* answer */
+.Answer {
+  width: 700px;
+  margin: auto;
+  display: flex;
+}
+.Answer > img {
+  margin-top: 50px;
+}
+.title {
+  padding: 10px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.icon,
+.icon div {
+  display: flex;
+  padding: 8px 0 0 0;
+  justify-content: space-between;
+}
+
+.icon > div:first-child {
+  width: 200px;
+}
+.icon > div:last-child {
+  font-size: 20px;
+  width: 100px;
+  margin-right: 10px;
+}

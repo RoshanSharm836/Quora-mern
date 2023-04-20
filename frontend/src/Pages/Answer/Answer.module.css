@@ -1,0 +1,123 @@
+.Answer {
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    gap: 20px;
+    background-color: rgb(241,242,242);
+    padding: 20px 100px 20px 50px;
+    /* position: relative; */
+}
+
+.left {
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+.left ul {
+    list-style: none;
+    margin: 0px;
+}
+
+.left ul li {
+    margin: 10px 0px;
+}
+
+.left h3 {
+    padding: 10px 0px;
+    border-bottom: 1px solid grey;
+    margin: 0px;
+}
+
+.middle {
+    background-color: white;
+}
+
+.middle > div {
+    border: 1px solid lightgray;
+}
+
+.heading {
+    display:  flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.noTopicMessage {
+    text-align: center;
+    background-color: white;
+    padding: 30px 10px;
+}
+
+.noTopicMessage p:nth-child(2) {
+    color: rgb(94, 90, 90);
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.noTopicMessage p:nth-child(3) {
+    color: grey;
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.noTopicMessage img {
+    width: 50px;
+    margin: auto;
+
+}
+
+.noTopicMessage button {
+    margin: 10px 0px;
+    padding: 10px 15px;
+    border: 2px solid rgb(27, 167, 222);
+    border-radius: 18px;
+    color: rgb(27, 167, 222);
+    background-color: white;
+}
+
+.noTopicMessage button:hover {
+    cursor: pointer;
+    background-color: rgb(210, 230, 237);
+}
+
+.moreDiv {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.addTopics {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addTopics h3 {
+    margin: 10px 0px;
+}
+
+.addTopics p {
+    margin: 10px 0px;
+    color: grey;
+}
+
+.addTopics button {
+    margin: 10px 0px;
+    padding: 10px 15px;
+    border: 2px solid rgb(27, 167, 222);
+    border-radius: 18px;
+    color: rgb(27, 167, 222);
+    background-color: white;
+}
+
+.addTopics button:hover {
+    cursor: pointer;
+    background-color: rgb(210, 230, 237);
+}
+
+
+.addTopics img {
+    width: 100px;
+}
