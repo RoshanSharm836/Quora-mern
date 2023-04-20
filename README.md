@@ -14,10 +14,13 @@
 
 <h1>Tech Stack :</h1>
 <ul> 
+  <li>React.js</li>
+  <li>Node.js</li>
+  <li>Express.js</li>
+  <li>MongoDB</li>
   <li>Html</li>
   <li>Css</li>
   <li>Javascript</li>
-  <li>React</li>
 </ul>
   
 <h1>Pages & Features</h1>
